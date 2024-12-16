@@ -1,0 +1,209 @@
+@media (min-width:900px) and (max-width:1024px) {
+
+    .amenities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 100px; */
+        margin: auto;
+        width: 80%;
+    }
+
+    .mission {
+        margin: 1px 1px;
+    }
+
+}
+
+
+
+/* Media query for screens wider than 768px (tablets and desktops) */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .logo-text {
+        font-size: 22px;
+    }
+
+
+    .mission {
+        margin: 10px 20px;
+    }
+
+
+    .mission-content span {
+        display: flex;
+        align-items: center;
+        padding-left: 90px;
+    }
+
+
+    .terms-content {
+        margin: 0px 20px;
+    }
+
+    .terms-content span {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    #aboutus {
+
+        margin: 30px;
+    }
+
+    .nav-link {
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 14px;
+        padding-left: 6px;
+    }
+
+
+}
+
+/* Media query for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+    .navbar {
+        padding: 10px 10px;
+    }
+
+    .nav-link {
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 14px;
+        padding-left: 6px;
+    }
+
+
+    .slider-content h1 {
+        font-size: 30px !important;
+        color: #FFF;
+        margin: 0px 70px;
+        font-weight: 600;
+        color: blue;
+    }
+
+    .logo-text {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 60px;
+    }
+
+
+    .navbar-brand {
+        display: flex;
+    }
+
+    .navbar-toggler {
+        border: 0px !important;
+    }
+
+
+    .contact_section {
+        margin: 10px;
+        padding: 10px 20px;
+    }
+
+
+    .footer-links {
+        text-decoration: none;
+        color: #FFF;
+        margin: 20px 0px;
+    }
+
+
+    .vision-part {
+        margin: 10px 20px;
+    }
+
+    .mission {
+        margin: 10px 20px;
+    }
+
+
+    .mission-content span {
+        display: flex;
+        align-items: center;
+        padding-left: 90px;
+    }
+
+
+    #contactNow3,
+    #contactNow2,
+    #contactNow,
+    #contactNow4,
+    #contactNow5 {
+      background-color: #fd7e14;
+      border-color: #fd7e14;
+      color: #FFF;
+      font-size: 20px;
+      padding: 10px;
+      margin: 30px 0px;
+      cursor: pointer;
+    }
+    
+
+    .terms-content {
+        margin: 0px 20px;
+    }
+
+
+    .terms-content span {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    #aboutus {
+
+        margin: 30px;
+    }
+
+
+    .about h5 {
+        margin-top: 40px;
+        font-size: 17px;
+    }
+
+
+    .about h1 {
+        font-weight: 600;
+        font-size: 25px;
+        /* color: black; */
+    }
+
+    .gtco-testimonials .owl-dots .active span {
+        background: #01b0f8;
+        box-shadow: none;
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1px;
+    }
+
+    /* Make the navbar items stack vertically */
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust font size for links */
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
